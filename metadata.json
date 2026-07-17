@@ -1,0 +1,6 @@
+{
+  "name": "SupplyShield",
+  "description": "An AI-Driven Supply Chain Stress Testing & Resilience Framework for India's Critical Logistics Network",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
