@@ -1,0 +1,416 @@
+{
+  "node_risk": {
+    "JNPT_MUMBAI": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "MUNDRA_PORT": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "CHENNAI_PORT": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "VIZAG_PORT": {
+      "risk_label": "Medium",
+      "probabilities": {
+        "Low": 0.0,
+        "Medium": 1.0
+      }
+    },
+    "KOLKATA_PORT": {
+      "risk_label": "Medium",
+      "probabilities": {
+        "Low": 0.0,
+        "Medium": 1.0
+      }
+    },
+    "DELHI_IGI": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "MUMBAI_CSIA": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "BENGALURU_KIA": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "HYD_RGIA": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "DELHI_DFC": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "MUMBAI_RAIL": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "AHMEDABAD_RAIL": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "PUNE_AUTO": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "CHENNAI_AUTO": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "NOIDA_ELECTRONICS": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "SURAT_TEXTILES": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "NAGPUR_WAREHOUSE": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "NH48_DISTRIBUTION": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "LUDHIANA_COLD": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "DELHI_NCR": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "MUMBAI_CITY": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "BENGALURU_CITY": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "KOLKATA_CITY": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "HYDERABAD_CITY": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "CHENNAI_CITY": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "AHMEDABAD_CITY": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "JAIPUR_CITY": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "LUCKNOW_CITY": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "KOCHI_CITY": {
+      "risk_label": "Low",
+      "probabilities": {
+        "Low": 1.0,
+        "Medium": 0.0
+      }
+    },
+    "GUWAHATI_CITY": {
+      "risk_label": "Medium",
+      "probabilities": {
+        "Low": 0.0,
+        "Medium": 1.0
+      }
+    }
+  },
+  "feature_importance": {
+    "Betweenness": 0.008051,
+    "Closeness": 0.001681,
+    "Eigenvector": 0.298975,
+    "PageRank": 0.00209,
+    "Clustering": 0.017134,
+    "In-degree": 0.009891,
+    "Out-degree": 0.015434,
+    "Capacity": 0.260693,
+    "Criticality": 0.126778,
+    "Avg Neighbour Capacity": 0.001325,
+    "Avg Edge Reliability": 0.020029,
+    "Type: Port": 0.235896,
+    "Type: Airport": 9.9e-05,
+    "Type: Rail Hub": 0.00126,
+    "Type: Factory": 0.000664
+  },
+  "cv_scores": {
+    "mean": 0.9822,
+    "std": 0.0151,
+    "per_fold": [
+      1.0,
+      0.9778,
+      0.9556,
+      0.9889,
+      0.9889
+    ]
+  },
+  "sir_model": {
+    "seed_nodes": [
+      "KOLKATA_CITY",
+      "DELHI_NCR",
+      "CHENNAI_PORT"
+    ],
+    "steps": 40,
+    "base_rate": 0.3,
+    "recovery_rate": 0.15,
+    "timeline": {
+      "S": [
+        27,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        26,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "I": [
+        3,
+        4,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "R": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    "infection_probability": {
+      "JNPT_MUMBAI": 0.0,
+      "MUNDRA_PORT": 0.0,
+      "CHENNAI_PORT": 0.175,
+      "VIZAG_PORT": 0.475,
+      "KOLKATA_PORT": 0.025,
+      "DELHI_IGI": 0.0,
+      "MUMBAI_CSIA": 0.0,
+      "BENGALURU_KIA": 0.0,
+      "HYD_RGIA": 0.0,
+      "DELHI_DFC": 0.0,
+      "MUMBAI_RAIL": 0.0,
+      "AHMEDABAD_RAIL": 0.0,
+      "PUNE_AUTO": 0.0,
+      "CHENNAI_AUTO": 0.0,
+      "NOIDA_ELECTRONICS": 0.0,
+      "SURAT_TEXTILES": 0.0,
+      "NAGPUR_WAREHOUSE": 0.0,
+      "NH48_DISTRIBUTION": 0.0,
+      "LUDHIANA_COLD": 0.0,
+      "DELHI_NCR": 0.075,
+      "MUMBAI_CITY": 0.0,
+      "BENGALURU_CITY": 0.0,
+      "KOLKATA_CITY": 0.1,
+      "HYDERABAD_CITY": 0.05,
+      "CHENNAI_CITY": 0.0,
+      "AHMEDABAD_CITY": 0.0,
+      "JAIPUR_CITY": 0.0,
+      "LUCKNOW_CITY": 0.0,
+      "KOCHI_CITY": 0.0,
+      "GUWAHATI_CITY": 0.0
+    }
+  },
+  "risk_distribution": {
+    "Low": 27,
+    "Medium": 3
+  }
+}

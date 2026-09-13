@@ -1,0 +1,344 @@
+{
+  "spofs": [
+    "KOLKATA_CITY",
+    "DELHI_NCR"
+  ],
+  "spof_labels": {
+    "KOLKATA_CITY": "Kolkata",
+    "DELHI_NCR": "Delhi NCR"
+  },
+  "resilience_scores": {
+    "JNPT_MUMBAI": 83.88,
+    "MUNDRA_PORT": 75.44,
+    "CHENNAI_PORT": 72.45,
+    "VIZAG_PORT": 50.17,
+    "KOLKATA_PORT": 45.42,
+    "DELHI_IGI": 84.25,
+    "MUMBAI_CSIA": 73.08,
+    "BENGALURU_KIA": 62.87,
+    "HYD_RGIA": 74.5,
+    "DELHI_DFC": 88.75,
+    "MUMBAI_RAIL": 76.5,
+    "AHMEDABAD_RAIL": 68.81,
+    "PUNE_AUTO": 69.17,
+    "CHENNAI_AUTO": 69.5,
+    "NOIDA_ELECTRONICS": 69.5,
+    "SURAT_TEXTILES": 63.37,
+    "NAGPUR_WAREHOUSE": 77.17,
+    "NH48_DISTRIBUTION": 73.0,
+    "LUDHIANA_COLD": 72.12,
+    "DELHI_NCR": 61.42,
+    "MUMBAI_CITY": 64.21,
+    "BENGALURU_CITY": 63.62,
+    "KOLKATA_CITY": 52.55,
+    "HYDERABAD_CITY": 66.9,
+    "CHENNAI_CITY": 64.12,
+    "AHMEDABAD_CITY": 64.0,
+    "JAIPUR_CITY": 62.37,
+    "LUCKNOW_CITY": 57.42,
+    "KOCHI_CITY": 65.5,
+    "GUWAHATI_CITY": 48.5
+  },
+  "robustness_curve": [
+    {
+      "nodes_removed": 0,
+      "lcc_size": 30,
+      "lcc_fraction": 1.0
+    },
+    {
+      "nodes_removed": 1,
+      "node_removed": "DELHI_NCR",
+      "lcc_size": 27,
+      "lcc_fraction": 0.9
+    },
+    {
+      "nodes_removed": 2,
+      "node_removed": "MUMBAI_CITY",
+      "lcc_size": 26,
+      "lcc_fraction": 0.8667
+    },
+    {
+      "nodes_removed": 3,
+      "node_removed": "JNPT_MUMBAI",
+      "lcc_size": 25,
+      "lcc_fraction": 0.8333
+    },
+    {
+      "nodes_removed": 4,
+      "node_removed": "DELHI_IGI",
+      "lcc_size": 24,
+      "lcc_fraction": 0.8
+    },
+    {
+      "nodes_removed": 5,
+      "node_removed": "BENGALURU_CITY",
+      "lcc_size": 23,
+      "lcc_fraction": 0.7667
+    },
+    {
+      "nodes_removed": 6,
+      "node_removed": "MUNDRA_PORT",
+      "lcc_size": 22,
+      "lcc_fraction": 0.7333
+    },
+    {
+      "nodes_removed": 7,
+      "node_removed": "DELHI_DFC",
+      "lcc_size": 14,
+      "lcc_fraction": 0.4667
+    },
+    {
+      "nodes_removed": 8,
+      "node_removed": "CHENNAI_AUTO",
+      "lcc_size": 13,
+      "lcc_fraction": 0.4333
+    },
+    {
+      "nodes_removed": 9,
+      "node_removed": "CHENNAI_CITY",
+      "lcc_size": 12,
+      "lcc_fraction": 0.4
+    },
+    {
+      "nodes_removed": 10,
+      "node_removed": "MUMBAI_CSIA",
+      "lcc_size": 11,
+      "lcc_fraction": 0.3667
+    },
+    {
+      "nodes_removed": 11,
+      "node_removed": "HYDERABAD_CITY",
+      "lcc_size": 8,
+      "lcc_fraction": 0.2667
+    },
+    {
+      "nodes_removed": 12,
+      "node_removed": "CHENNAI_PORT",
+      "lcc_size": 6,
+      "lcc_fraction": 0.2
+    },
+    {
+      "nodes_removed": 13,
+      "node_removed": "PUNE_AUTO",
+      "lcc_size": 6,
+      "lcc_fraction": 0.2
+    },
+    {
+      "nodes_removed": 14,
+      "node_removed": "KOLKATA_CITY",
+      "lcc_size": 5,
+      "lcc_fraction": 0.1667
+    },
+    {
+      "nodes_removed": 15,
+      "node_removed": "MUMBAI_RAIL",
+      "lcc_size": 4,
+      "lcc_fraction": 0.1333
+    },
+    {
+      "nodes_removed": 16,
+      "node_removed": "AHMEDABAD_CITY",
+      "lcc_size": 2,
+      "lcc_fraction": 0.0667
+    },
+    {
+      "nodes_removed": 17,
+      "node_removed": "BENGALURU_KIA",
+      "lcc_size": 2,
+      "lcc_fraction": 0.0667
+    },
+    {
+      "nodes_removed": 18,
+      "node_removed": "NOIDA_ELECTRONICS",
+      "lcc_size": 2,
+      "lcc_fraction": 0.0667
+    },
+    {
+      "nodes_removed": 19,
+      "node_removed": "VIZAG_PORT",
+      "lcc_size": 2,
+      "lcc_fraction": 0.0667
+    },
+    {
+      "nodes_removed": 20,
+      "node_removed": "HYD_RGIA",
+      "lcc_size": 2,
+      "lcc_fraction": 0.0667
+    },
+    {
+      "nodes_removed": 21,
+      "node_removed": "AHMEDABAD_RAIL",
+      "lcc_size": 2,
+      "lcc_fraction": 0.0667
+    },
+    {
+      "nodes_removed": 22,
+      "node_removed": "KOLKATA_PORT",
+      "lcc_size": 2,
+      "lcc_fraction": 0.0667
+    },
+    {
+      "nodes_removed": 23,
+      "node_removed": "SURAT_TEXTILES",
+      "lcc_size": 2,
+      "lcc_fraction": 0.0667
+    },
+    {
+      "nodes_removed": 24,
+      "node_removed": "JAIPUR_CITY",
+      "lcc_size": 1,
+      "lcc_fraction": 0.0333
+    },
+    {
+      "nodes_removed": 25,
+      "node_removed": "NH48_DISTRIBUTION",
+      "lcc_size": 1,
+      "lcc_fraction": 0.0333
+    },
+    {
+      "nodes_removed": 26,
+      "node_removed": "LUCKNOW_CITY",
+      "lcc_size": 1,
+      "lcc_fraction": 0.0333
+    },
+    {
+      "nodes_removed": 27,
+      "node_removed": "NAGPUR_WAREHOUSE",
+      "lcc_size": 1,
+      "lcc_fraction": 0.0333
+    },
+    {
+      "nodes_removed": 28,
+      "node_removed": "KOCHI_CITY",
+      "lcc_size": 1,
+      "lcc_fraction": 0.0333
+    },
+    {
+      "nodes_removed": 29,
+      "node_removed": "LUDHIANA_COLD",
+      "lcc_size": 1,
+      "lcc_fraction": 0.0333
+    },
+    {
+      "nodes_removed": 30,
+      "node_removed": "GUWAHATI_CITY",
+      "lcc_size": 0,
+      "lcc_fraction": 0.0
+    }
+  ],
+  "low_resilience_nodes": [
+    "KOLKATA_PORT",
+    "GUWAHATI_CITY",
+    "VIZAG_PORT",
+    "KOLKATA_CITY",
+    "LUCKNOW_CITY",
+    "DELHI_NCR",
+    "JAIPUR_CITY",
+    "BENGALURU_KIA"
+  ],
+  "strategies": [
+    {
+      "id": "S01",
+      "title": "JNPT Capacity Expansion & Mundra Redundancy Partnership",
+      "type": "Infrastructure",
+      "priority": "Critical",
+      "description": "JNPT handles 55% of India's container traffic, creating a catastrophic single point of failure. Expand JNPT capacity by 40% and formalise a real-time cargo-diversion agreement with Mundra Port to activate automatically when JNPT operations fall below 60% capacity.",
+      "implementation_steps": [
+        "Commission automated vessel traffic management system at JNPT (Year 1)",
+        "Sign tripartite agreement: JNPT\u2013Adani\u2013Ministry of Ports for overflow protocols (6 months)",
+        "Build 8-km connecting rail spur from Mundra to WDFC to enable 24h cargo rerouting",
+        "Install real-time AIS-based cargo tracking between both ports",
+        "Conduct joint annual simulation drills for strike/disaster rerouting"
+      ],
+      "cost_crore": 8500,
+      "timeline": "24\u201336 months"
+    },
+    {
+      "id": "S02",
+      "title": "Dedicated Freight Corridor Resilience Hardening",
+      "type": "Infrastructure",
+      "priority": "High",
+      "description": "The Delhi\u2013Mumbai DFC carries \u20b92.1 lakh crore of freight annually. A single derailment blocks both directions for 72+ hours. Add bypass loops at critical junctions, deploy AI-based predictive maintenance, and pre-position recovery equipment at 5 strategic points along the corridor.",
+      "implementation_steps": [
+        "Install 12 km of emergency bypass loops at Palanpur, Ajmer, and Vadodara junctions",
+        "Deploy 24-hour AI-based track defect detection drones across 1,500 km of DFC",
+        "Pre-position 5 Heavy Breakdown & Recovery Trains with 4-hour mobilisation SLA",
+        "Establish DFC command centre with real-time freight tracking integration",
+        "Create tri-annual derailment simulation exercises with NDRF"
+      ],
+      "cost_crore": 4200,
+      "timeline": "18\u201324 months"
+    },
+    {
+      "id": "S03",
+      "title": "North-East India Multi-Modal Connectivity Uplift",
+      "type": "Infrastructure",
+      "priority": "High",
+      "description": "Guwahati and the North-East remain critically isolated when NH16 or rail lines are disrupted by cyclones or floods. Build 3 resilient connectivity redundancies: air cargo upgrade, river logistics on the Brahmaputra, and a strategic highway bypass via the Stilwell Road corridor.",
+      "implementation_steps": [
+        "Upgrade Guwahati and Agartala airports to Category C cargo hubs (Year 1\u20132)",
+        "Commission 6 river cargo barges on the Brahmaputra for 50,000 MT monthly capacity",
+        "Begin Stilwell Road (India\u2013Myanmar) resilience upgrade for emergency road access",
+        "Build 200 MT emergency strategic food/medicine warehouses at 5 North-East points",
+        "Negotiate bilateral logistics MOU with Bangladesh for alternative coastal routing"
+      ],
+      "cost_crore": 6800,
+      "timeline": "36\u201348 months"
+    },
+    {
+      "id": "S04",
+      "title": "National Semiconductor Strategic Reserve & Fab Incentive",
+      "type": "Policy",
+      "priority": "Critical",
+      "description": "India imports 100% of advanced semiconductors, creating a \u20b922,000 crore annual vulnerability. Establish a 90-day strategic chip stockpile, accelerate PLI semiconductor fabs, and sign emergency supply agreements with Taiwan (TSMC), South Korea (Samsung), and Japan (Renesas).",
+      "implementation_steps": [
+        "Create 90-day strategic semiconductor reserve (\u20b93,000 crore allocation, Year 1)",
+        "Activate PLI Scheme tranche 2 with \u20b915,000 crore for 3 wafer fab projects",
+        "Sign emergency supply MOU with Taiwan SEMI Association (6 months)",
+        "Fast-track visa and R&D incentives for 500 chip engineers from Taiwan/South Korea",
+        "Establish India Semiconductor Mission (ISM) crisis response protocol"
+      ],
+      "cost_crore": 18000,
+      "timeline": "12\u201360 months (phased)"
+    },
+    {
+      "id": "S05",
+      "title": "National Supply Chain Visibility Platform (NSCVP)",
+      "type": "Operational",
+      "priority": "High",
+      "description": "India lacks a unified real-time view of its supply chain. Build a government-industry digital platform integrating port, rail, road, and air cargo data with AI-based disruption early warning, akin to Singapore's CALISTA platform but scaled for India's complexity.",
+      "implementation_steps": [
+        "Integrate data from JNPT, Adani Ports, Indian Railways, NHAI, AAI under unified API",
+        "Deploy AI/ML disruption prediction engine (weather, strikes, accidents, geopolitical)",
+        "Build mobile app + API access for 50,000 logistics SMEs across India",
+        "Mandate data contribution from all CPSEs in logistics under Digital India mission",
+        "Conduct public-private hackathon to crowdsource alerting algorithms"
+      ],
+      "cost_crore": 1200,
+      "timeline": "12\u201318 months"
+    },
+    {
+      "id": "S06",
+      "title": "Strategic Petroleum & Fuel Reserve Expansion",
+      "type": "Policy",
+      "priority": "Medium",
+      "description": "India's strategic petroleum reserves cover only 9.5 days of consumption. Expand to 30 days and create a priority allocation protocol for logistics and emergency services during fuel crises, preventing supply chain paralysis.",
+      "implementation_steps": [
+        "Commission 3 new SPR caverns at Padur, Mangalore, and Bikaner (15M barrels total)",
+        "Legislate Essential Logistics Fuel Priority Act with automatic activation triggers",
+        "Create dynamic petroleum routing algorithm prioritising agricultural & medical supply chains",
+        "Sign long-term oil supply agreements with UAE, Saudi, and USA as diversity hedge",
+        "Launch Green Logistics subsidy: 40% CAPEX subsidy for EV fleet conversion by top 100 logistics companies"
+      ],
+      "cost_crore": 12000,
+      "timeline": "24\u201336 months"
+    }
+  ],
+  "summary": {
+    "total_spofs": 2,
+    "avg_resilience_score": 67.35,
+    "min_resilience_score": 45.42,
+    "max_resilience_score": 88.75,
+    "num_strategies": 6
+  }
+}
