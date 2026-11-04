@@ -9,6 +9,7 @@ import os
 import pickle
 import json
 import networkx as nx
+import numpy as np
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "outputs")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -242,7 +243,6 @@ def run():
 
     print("\n[3/4] Detecting single points of failure...")
     spofs = detect_spofs(G)
-    nx.set_graph_attr = lambda: None  # no-op
     G.graph["spofs"] = spofs
 
     print("\n[4/4] Serialising outputs...")

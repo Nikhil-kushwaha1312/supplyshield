@@ -49,7 +49,6 @@ spofs   = resilience.get("spofs", [])
 scores  = resilience.get("resilience_scores", {})
 strategies = resilience.get("strategies", [])
 robustness = resilience.get("robustness_curve", [])
-spof_labels = resilience.get("spof_labels", {})
 
 if graph_data:
     label_map = {nd["id"]: nd.get("label", nd["id"]) for nd in graph_data["nodes"]}
@@ -116,7 +115,7 @@ with col_a:
 with col_b:
     st.markdown('<div class="section-title">⚠️ Single Points of Failure</div>', unsafe_allow_html=True)
     for spof_id in spofs:
-        lbl = spof_labels.get(spof_id, label_map.get(spof_id, spof_id))
+        lbl = label_map.get(spof_id, spof_id)
         score = scores.get(spof_id, 0)
         st.markdown(f"""
         <div class="surface-card" style="border-left:3px solid var(--accent-amber)">

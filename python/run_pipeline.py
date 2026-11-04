@@ -6,7 +6,7 @@ Usage:
     python run_pipeline.py
 
 Then launch the dashboard:
-    streamlit run module5_dashboard.py
+    streamlit run 0_🏠_Overview.py
 """
 
 import time
@@ -50,6 +50,10 @@ def main():
     from module3_cascade_prediction import run as m3
     run_module("Module 3: Cascade Failure Prediction", m3)
 
+    # Module 3B: Kaggle ML Disruption Model
+    from train_kaggle_model import run as m3b
+    run_module("Module 3B: Kaggle Supply Chain ML Disruption Model", m3b)
+
     # Module 4: Resilience Recommender
     from module4_resilience_recommender import run as m4
     run_module("Module 4: Resilience Strategy Recommender", m4)
@@ -59,11 +63,13 @@ def main():
     print(f"  [OK] All modules complete in {elapsed_total:.1f}s")
     print("=" * 60)
     print("\nOutputs written to: outputs/")
-    print("  graph.pkl                -- NetworkX DiGraph (serialised)")
-    print("  graph.json               -- Graph data for dashboard")
-    print("  disruption_results.json  -- 7 scenario impact reports")
-    print("  cascade_results.json     -- Risk labels, SIR model, feature importance")
-    print("  resilience_results.json  -- Scores, SPOFs, robustness curve, strategies")
+    print("  graph.pkl                   -- NetworkX DiGraph (serialised)")
+    print("  graph.json                  -- Graph data for dashboard")
+    print("  disruption_results.json     -- 7 scenario impact reports")
+    print("  cascade_results.json        -- Risk labels, SIR model, feature importance")
+    print("  kaggle_model_metrics.json   -- Kaggle ML disruption metrics & modal stats")
+    print("  kaggle_disruption_clf.pkl   -- Trained disruption classifier")
+    print("  resilience_results.json     -- Scores, SPOFs, robustness curve, strategies")
     print("\nLaunch the dashboard:")
     print("  streamlit run 0_🏠_Overview.py\n")
 

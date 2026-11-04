@@ -251,9 +251,7 @@ with c2:
     </div>""", unsafe_allow_html=True)
 
 with c3:
-    spof_labels = [graph_data["nodes"][i]["label"]
-                   for i in range(len(graph_data["nodes"]))
-                   if graph_data["nodes"][i]["id"] in spofs]
+    spof_labels = [nd.get("label", nd["id"]) for nd in nodes if nd["id"] in spofs]
     spof_html = "".join(f'<span class="tag-chip danger">⚠️ {l}</span>'
                         for l in spof_labels[:8])
     st.markdown(f"""<div class="surface-card">
