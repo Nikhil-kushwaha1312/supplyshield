@@ -305,12 +305,12 @@ def run():
 
     print("\n[1/5] Loading graph and cascade results...")
     if not os.path.exists(GRAPH_PKL):
-        raise FileNotFoundError("Run module1_graph_construction.py first!")
+        raise FileNotFoundError("Run graph_construction.py first!")
     with open(GRAPH_PKL, "rb") as f:
         G = pickle.load(f)
 
     if not os.path.exists(CASCADE_JSON):
-        raise FileNotFoundError("Run module3_cascade_prediction.py first!")
+        raise FileNotFoundError("Run cascade_prediction.py first!")
     with open(CASCADE_JSON) as f:
         cascade_results = json.load(f)
 

@@ -161,7 +161,7 @@ def run():
 
     print("\n[1/5] Loading graph from outputs/graph.pkl...")
     if not os.path.exists(GRAPH_PKL):
-        raise FileNotFoundError("Run module1_graph_construction.py first!")
+        raise FileNotFoundError("Run graph_construction.py first!")
     with open(GRAPH_PKL, "rb") as f:
         G = pickle.load(f)
     print(f"  Graph loaded: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")

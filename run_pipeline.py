@@ -6,7 +6,7 @@ Usage:
     python run_pipeline.py
 
 Then launch the dashboard:
-    streamlit run 0_🏠_Overview.py
+    streamlit run 0_Overview.py
 """
 
 import time
@@ -39,15 +39,15 @@ def main():
     t_total = time.time()
 
     # Module 1: Graph Construction
-    from module1_graph_construction import run as m1
+    from graph_construction import run as m1
     run_module("Module 1: Graph Construction", m1)
 
     # Module 2: Disruption Simulator
-    from module2_disruption_simulator import run as m2
+    from disruption_simulator import run as m2
     run_module("Module 2: Disruption Simulator", m2)
 
     # Module 3: Cascade Prediction
-    from module3_cascade_prediction import run as m3
+    from cascade_prediction import run as m3
     run_module("Module 3: Cascade Failure Prediction", m3)
 
     # Module 3B: Kaggle ML Disruption Model
@@ -55,7 +55,7 @@ def main():
     run_module("Module 3B: Kaggle Supply Chain ML Disruption Model", m3b)
 
     # Module 4: Resilience Recommender
-    from module4_resilience_recommender import run as m4
+    from resilience_recommender import run as m4
     run_module("Module 4: Resilience Strategy Recommender", m4)
 
     elapsed_total = time.time() - t_total
@@ -71,7 +71,7 @@ def main():
     print("  kaggle_disruption_clf.pkl   -- Trained disruption classifier")
     print("  resilience_results.json     -- Scores, SPOFs, robustness curve, strategies")
     print("\nLaunch the dashboard:")
-    print("  streamlit run 0_🏠_Overview.py\n")
+    print("  streamlit run 0_Overview.py\n")
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 """
-0_🏠_Overview.py — SupplyShield Streamlit Dashboard Overview Page
-Run with: streamlit run 0_🏠_Overview.py
+0_Overview.py — SupplyShield Streamlit Dashboard Overview Page
+Run with: streamlit run 0_Overview.py
 """
 
 import os
@@ -74,7 +74,7 @@ ui_theme.render_header(
 
 # ── Pipeline check guard ──────────────────────────────────────────────────────
 if not pipeline_ready():
-    st.warning("⚠️ Pipeline outputs not found. Run `python run_pipeline.py` from the `python/` directory to generate data.")
+    st.warning("⚠️ Pipeline outputs not found. Run `python run_pipeline.py` to generate data.")
     st.stop()
 
 # ── Load data ─────────────────────────────────────────────────────────────────

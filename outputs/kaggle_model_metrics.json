@@ -4,42 +4,42 @@
   "train_samples": 4000,
   "test_samples": 1000,
   "cv_scores": {
-    "mean": 0.5818,
-    "std": 0.0126,
+    "mean": 0.5832,
+    "std": 0.0173,
     "per_fold": [
       0.5725,
-      0.5775,
-      0.58,
-      0.5725,
-      0.6062
+      0.5663,
+      0.5975,
+      0.57,
+      0.61
     ]
   },
   "test_metrics": {
-    "accuracy": 0.568,
-    "roc_auc": 0.5724,
-    "precision": 0.5087,
-    "recall": 0.3995,
-    "f1_score": 0.4476
+    "accuracy": 0.56,
+    "roc_auc": 0.5696,
+    "precision": 0.4971,
+    "recall": 0.3973,
+    "f1_score": 0.4416
   },
   "confusion_matrix": [
     [
-      393,
-      169
+      386,
+      176
     ],
     [
-      263,
-      175
+      264,
+      174
     ]
   ],
   "feature_importance": {
     "Benefit per order": 0.2628,
-    "Order Item Product Price": 0.2608,
-    "Sales": 0.1258,
-    "Sales per customer": 0.1246,
-    "Order Item Discount Rate": 0.1038,
-    "Days for shipment (scheduled)": 0.0663,
-    "Order Item Quantity": 0.0294,
-    "Shipping Mode Encoded": 0.0264
+    "Order Item Product Price": 0.26,
+    "Sales per customer": 0.1269,
+    "Sales": 0.1265,
+    "Order Item Discount Rate": 0.1031,
+    "Days for shipment (scheduled)": 0.0659,
+    "Order Item Quantity": 0.0291,
+    "Shipping Mode Encoded": 0.0258
   },
   "modal_statistics": {
     "First Class": {
